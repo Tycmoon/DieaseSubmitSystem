@@ -1,0 +1,11 @@
+#MainForm {
+    margin: 20px;
+    position: relative;
+}
+#table_p{
+    display: none;
+}
+td{
+    width: 250px;
+    word-wrap: break-word;
+}

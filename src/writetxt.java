@@ -51,8 +51,8 @@ public class writetxt {
                 int b = RandomNumber2%(Name.length()-3);
                 int c = RandomNumber3%(Name.length()-3);
                 String str = CollegeArray[RandomNumber%CollegeArray.length]+"&"
-                        +(1+RandomNumber%12)+"&"
-                        +(1+RandomNumber2%31)+"&"
+                        +(1+RandomNumber%12)+"月&"
+                        +(1+RandomNumber2%31)+"日&"
                         +Name.substring(a,a+1)+Name.substring(b,b+1)+Name.substring(c,c+1)+"&"
                         +P_ID[RandomNumber%2]+"&"
                         +Place[RandomNumber2%Place.length]+ "&"

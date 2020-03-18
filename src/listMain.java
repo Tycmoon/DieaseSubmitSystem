@@ -243,6 +243,60 @@ class Search{
 
         }
     }
+    // 信息中各个字段
+    static String[][] GraphList = new String[6][100];
+    // 读取字段值填入数组中
+    void graghTest(ArrayList<Person> a){
+        int[] index = new int[]{0,0,0,0,0,0,0};
+        for (Person i:a) {
+            if (!Arrays.asList(GraphList[0]).contains(i.getCollege()))GraphList[0][index[0]++] = i.getCollege();
+            if (!Arrays.asList(GraphList[1]).contains(i.getPlace()))GraphList[1][index[1]++] = i.getPlace();
+            if (!Arrays.asList(GraphList[2]).contains(i.getID()))GraphList[2][index[2]++] = i.getID();
+            if (!Arrays.asList(GraphList[3]).contains(i.getTimeD()))GraphList[3][index[3]++] = i.getTimeD();
+            if (!Arrays.asList(GraphList[4]).contains(i.getTimeM()))GraphList[4][index[4]++] = i.getTimeM();
+            if (!Arrays.asList(GraphList[5]).contains(i.getSituation1()))GraphList[5][index[5]++] = i.getSituation1();
+        }
+        /*
+         *
+         * 查看录入字段
+        for (int i = 0; i < GraphList.length; i++) {
+            for (int j = 0; j < GraphList[i].length; j++) {
+                if (GraphList[i][j] != null)
+                System.out.print(GraphList[i][j]+" ");
+            }
+            System.out.print("\n");
+        }
+        */
+    }
+    // 信息中字段计数的值
+    static int[][] ListCount = new int[6][100];
+    void BuildCount(ArrayList<Person> a){
+        // 遍历计数
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < GraphList[i].length; j++) {
+
+                if (GraphList[i][j]!=null)
+                    for (int k = 0; k < a.size(); k++) {
+                        if (a.get(k).getCollege().equals(GraphList[i][j]) && i==0) ListCount[i][j]++;
+                        if (a.get(k).getPlace().equals(GraphList[i][j]) && i==1) ListCount[i][j]++;
+                        if (a.get(k).getID().equals(GraphList[i][j]) && i==2) ListCount[i][j]++;
+                        if (a.get(k).getTimeD().equals(GraphList[i][j]) && i==3) ListCount[i][j]++;
+                        if (a.get(k).getTimeM().equals(GraphList[i][j]) && i==4) ListCount[i][j]++;
+                        if (a.get(k).getSituation1().equals(GraphList[i][j]) && i==5) ListCount[i][j]++;
+                    }
+            }
+        }
+    }
+    void ShowCount(){
+        for (int i = 0; i < GraphList.length; i++) {
+            for (int j = 0; j < GraphList[i].length; j++) {
+                if (GraphList[i][j]!=null){
+                    System.out.print(GraphList[i][j]+":"+ListCount[i][j]+"\n");
+                }
+            }
+        }
+    }
+
 
 }
 class ReadFile{
@@ -281,7 +335,7 @@ class MenuTnput{
         while(flag) {
             System.out.print("0:EXIT        \t"+"1:search name      \t"+"2:search student\t"+"3:search teacher\t\n"
                     +"4:Placegraph \t"+"5:timegraph(month)\t"+"6:CollegeGragh   \t" +"7:Timegargh(day)\t"
-                    +"\n8:INPUTSOMETHING");
+                    +"\n8:INPUTSOMETHING\t"+"9：ShowAllListCount");
             String number = TextInput.next();
             if (number.equals("1")) {
                 System.out.print("input name:\n");
@@ -309,7 +363,12 @@ class MenuTnput{
                 System.out.print("INPUTSOMETHING:");
                 String InputWord = TextInput.next();
                 Search.Search(Personlist1,InputWord);
-            } else if (number.equals("0")){
+            } else if(number.equals("9")){
+                System.out.print("ShowAllListCount：\n");
+                Search.graghTest(Personlist1);
+                Search.BuildCount(Personlist1);
+                Search.ShowCount();
+            }else if (number.equals("0")){
                 flag = false;
             }else {
                 System.out.println("不合法的输入");

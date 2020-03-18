@@ -118,6 +118,7 @@ class Search{
             }
         }
     }
+
     void Search(ArrayList<Person> a,String Word){
         for (int i = 0; i < a.size(); i++) {
             String str = a.get(i).toString();
@@ -125,6 +126,8 @@ class Search{
                 System.out.print(a.get(i));
         }
     }
+    /*
+     *废弃
     void BuildPlaceGragh(ArrayList<Person> a){
         String[] GraphList = new String[100];
         int index = 0;
@@ -243,10 +246,15 @@ class Search{
 
         }
     }
+     */
+
     // 信息中各个字段
     static String[][] GraphList = new String[6][100];
+    // 信息总数
+    static int PERSON_LIST_SIZE;
     // 读取字段值填入数组中
     void graghTest(ArrayList<Person> a){
+        PERSON_LIST_SIZE = a.size();
         int[] index = new int[]{0,0,0,0,0,0,0};
         for (Person i:a) {
             if (!Arrays.asList(GraphList[0]).contains(i.getCollege()))GraphList[0][index[0]++] = i.getCollege();
@@ -297,6 +305,26 @@ class Search{
         }
     }
 
+    void ShowAllGragh(){
+        System.out.print("输入数字0 1 2 3 4 5 ");
+        Scanner Input = new Scanner(System.in);
+        int index = Input.nextInt();
+        if (index<7 && index>=0){
+            for (int i = 0; i < GraphList[index].length; i++) {
+                if (GraphList[index][i]!=null){
+                    int value = 100;
+                    if (index == 5 || index == 2)value = 10;
+                    for (int j = 0; j < ListCount[index][i]*value/PERSON_LIST_SIZE; j++) {
+                        System.out.print("▆");
+                    }
+                    System.out.print(GraphList[index][i]+":"+ListCount[index][i]+"\n");
+                }
+            }
+        }else {
+            System.out.print("不合法的输入");
+        }
+    }
+
 
 }
 class ReadFile{
@@ -332,10 +360,12 @@ class MenuTnput{
         boolean flag = true;
         Search Search = new Search();
         Scanner TextInput = new Scanner(System.in);
+        // 初始化
+        Search.graghTest(Personlist1);
+        Search.BuildCount(Personlist1);
         while(flag) {
             System.out.print("0:EXIT        \t"+"1:search name      \t"+"2:search student\t"+"3:search teacher\t\n"
-                    +"4:Placegraph \t"+"5:timegraph(month)\t"+"6:CollegeGragh   \t" +"7:Timegargh(day)\t"
-                    +"\n8:INPUTSOMETHING\t"+"9：ShowAllListCount");
+                    +"4:AllGragh\t"+"\n8:INPUTSOMETHING\t"+"9：ShowAllListCount");
             String number = TextInput.next();
             if (number.equals("1")) {
                 System.out.print("input name:\n");
@@ -348,25 +378,13 @@ class MenuTnput{
                 System.out.println("teacher message:");
                 Search.SearchTeacher(Personlist1);
             }else if (number.equals("4")){
-                System.out.println("PalceGraph");
-                Search.BuildPlaceGragh(Personlist1);
-            }else if (number.equals("5")){
-                System.out.println("TimeGraph(mongth)");
-                Search.BuildTimeGragh(Personlist1);
-            }else if (number.equals("6")){
-                System.out.println("CollegeGraph");
-                Search.BuildCollegeGragh(Personlist1);
-            } else if(number.equals("7")){
-                System.out.println("TimeGraph(Day)");
-                Search.TimegraghDay(Personlist1);
-            } else if(number.equals("8")){
+                Search.ShowAllGragh();
+            }else if(number.equals("8")){
                 System.out.print("INPUTSOMETHING:");
                 String InputWord = TextInput.next();
                 Search.Search(Personlist1,InputWord);
             } else if(number.equals("9")){
                 System.out.print("ShowAllListCount：\n");
-                Search.graghTest(Personlist1);
-                Search.BuildCount(Personlist1);
                 Search.ShowCount();
             }else if (number.equals("0")){
                 flag = false;

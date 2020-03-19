@@ -1,9 +1,23 @@
 #### src具体内容
+
 writetxt.java生成数据
 listMain.java进行具体对数据处理的操作
 
 #### 功能
-1.查询学生或者老师信息
-2.显示某个名字相关信息
-3.显示各个信息柱状图
-4.查询某个信息其它相关的内容
+
+0:EXIT  
+1:search name
+2:search student
+3:search teacher
+4:AllGrag
+012345各自对应一个graph
+
+>0：College
+1：Place
+2：ID
+3：TimeDay
+4：TimeM
+5：Situation
+
+8:INPUTSOMETHING
+9:ShowAllListCount

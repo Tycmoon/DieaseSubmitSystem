@@ -43,7 +43,7 @@ public class writetxt {
         try {
             FileW = new FileWriter("Text.txt");
             Random NewRandom = new Random();
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 20; i++) {
                 int RandomNumber = NewRandom.nextInt(1000);
                 int RandomNumber2 = NewRandom.nextInt(10000);
                 int RandomNumber3 = NewRandom.nextInt(22222);
@@ -68,6 +68,7 @@ public class writetxt {
             e.printStackTrace();
 
         }
+
 
     }
 }

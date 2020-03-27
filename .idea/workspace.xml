@@ -7,12 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d476fbe0-164e-4b12-9b67-35890509b48c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jcommon-1.0.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jfreechart-1.0.19.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/MenuTnput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MenuTnput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ReadFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/listMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/listMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/writetxt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/writetxt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenuTnput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuTnput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/listMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/writetxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/writetxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +53,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\course\软件工程\diease submit\img" />
+      <recent name="D:\course\软件工程\diease submit" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,6 +79,20 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.listMain">
+    <configuration name="CharReport_ZZT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharReport_ZZT" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JfreeChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JfreeChart" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="untitled" />
@@ -151,7 +180,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.listMain" />
+        <item itemvalue="Application.JfreeChart" />
         <item itemvalue="Application.writetxt" />
+        <item itemvalue="Application.CharReport_ZZT" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -179,6 +210,16 @@
       <workItem from="1584498695434" duration="7107000" />
       <workItem from="1584511089154" duration="5663000" />
       <workItem from="1584516884522" duration="197000" />
+      <workItem from="1584517227281" duration="732000" />
+      <workItem from="1584522008565" duration="7000" />
+      <workItem from="1584594359338" duration="743000" />
+      <workItem from="1584595848664" duration="610000" />
+      <workItem from="1584689448383" duration="26000" />
+      <workItem from="1584845628843" duration="79000" />
+      <workItem from="1584925983380" duration="1134000" />
+      <workItem from="1584944408488" duration="1284000" />
+      <workItem from="1585211965740" duration="14578000" />
+      <workItem from="1585268553695" duration="8479000" />
     </task>
     <servers />
   </component>

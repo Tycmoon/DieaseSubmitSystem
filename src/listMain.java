@@ -23,7 +23,10 @@ public class listMain {
             System.out.println("信息读取有误");
             e.printStackTrace();
         }
-        NewMenuInput.InputNumber(Personlist1);
+        //NewMenuInput.initializeGragh(Personlist1);
+        NewMenuInput.SwingMenu();
+
+
 
     }
 }

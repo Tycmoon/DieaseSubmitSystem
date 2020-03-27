@@ -47,7 +47,7 @@ class Search{
 
 
     // 信息中各个字段
-    static String[][] GraphList = new String[6][100];
+    public static String[][] GraphList = new String[6][100];
     // 信息总数
     static int PERSON_LIST_SIZE;
     // 读取字段值填入数组中
@@ -75,7 +75,7 @@ class Search{
         */
     }
     // 信息中字段计数的值
-    static int[][] ListCount = new int[6][100];
+    public static int[][] ListCount = new int[6][100];
     void BuildCount(ArrayList<Person> a){
         // 遍历计数
         for (int i = 0; i < 6; i++) {
@@ -122,6 +122,11 @@ class Search{
             System.out.print("不合法的输入");
         }
     }
-
+    void BuildGragh(){
+        // 生成图表
+        ProduceChart Pc = new ProduceChart();
+        Pc.ProduceChartC(GraphList,ListCount);
+        Pc.ProduceChartC2(GraphList,ListCount);
+    }
 
 }

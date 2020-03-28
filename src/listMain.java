@@ -1,3 +1,5 @@
+import javax.swing.*;
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -23,8 +25,20 @@ public class listMain {
             System.out.println("信息读取有误");
             e.printStackTrace();
         }
-        //NewMenuInput.initializeGragh(Personlist1);
-        NewMenuInput.SwingMenu();
+        // NewMenuInput.initializeGragh(Personlist1);
+
+        // frame
+        EventQueue.invokeLater(()->{
+            Frame Frame = new Frame();
+            // 传参
+            Frame.setP(Personlist1);
+            Frame.setTitle("疫情上报系统");
+            Frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            Frame.setVisible(true);
+        });
+
+
+
 
 
 
@@ -130,5 +144,7 @@ class ReadFile{
             Person.setSituation1(situation1);
             a.add(Person);
         }
+        fileReader.close();
+        bufferedReader.close();
     }
 }

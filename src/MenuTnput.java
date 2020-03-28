@@ -1,14 +1,9 @@
-import javax.swing.*;
-import javax.swing.text.TextAction;
-import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
  * Created by IntelliJ IDEA.
  * User: YANG
- * Date: 2020/3/26
  */
 class MenuTnput{
     // 命令行菜单显示
@@ -58,71 +53,6 @@ class MenuTnput{
         Search.graghTest(Personlist1);
         Search.BuildCount(Personlist1);
         Search.BuildGragh();
-    }
-
-    public void SwingMenu(){
-        EventQueue.invokeLater(()->{
-            Frame Frame = new Frame();
-            Frame.setTitle("疫情上报系统");
-            Frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            Frame.setVisible(true);
-        });
-    }
-}
-
-class Frame extends JFrame{
-    Toolkit kit = Toolkit.getDefaultToolkit();
-    Dimension screensize = kit.getScreenSize();
-    private int width = screensize.width;
-    private int height = screensize.height;
-    // 界面绘制
-    public Frame(){
-
-        // set width height
-        setSize(width/2,height/2);
-        setLocationByPlatform(true);
-        // set icon
-        Image img = new ImageIcon("img//Disease.png").getImage();
-        setIconImage(img);
-        AddMenu();
-
-
-
-    }
-    public void AddMenu(){
-        // Mainmenu
-        JMenuBar MainMenu = new JMenuBar();
-        // menu1
-        JMenu Menu1 = new JMenu("菜单1");
-        Action SearchEngine = new TextAction("Search一下") {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        };
-        Action SearchStudent = new TextAction("查询") {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        };
-        Menu1.add(SearchEngine);
-        Menu1.add(SearchStudent);
-        // menu2
-        JMenu Menu2 = new JMenu("菜单2");
-        Action CollegeGragh = new TextAction("CollegeGragh") {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        };
-
-
-
-        // MainMenu ADD
-        MainMenu.add(Menu1);
-        MainMenu.add(Menu2);
-        add(MainMenu,BorderLayout.NORTH);
     }
 
 }

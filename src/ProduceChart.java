@@ -50,7 +50,7 @@ public class ProduceChart {
                 piePlot.setLabelFont(font);
                 chart.getLegend().setItemFont(font);
                 // 改样式
-                chart.setTextAntiAlias(false);
+                chart.setTextAntiAlias(true);
                 chart.setBackgroundPaint(ChartColor.WHITE);
                 piePlot.setBackgroundPaint(ChartColor.WHITE);
                 // 关闭片区外廓
@@ -112,6 +112,10 @@ public class ProduceChart {
                 String pathname = "chart//"+list[j]+"1.jpeg";
                 File pieChart = new File(pathname);
                 ChartUtilities.saveChartAsJPEG( pieChart , chart , width , height );
+                // 生成png
+                String pathname2 = "chart//"+list[j]+"1.png";
+                File pieChart2 = new File(pathname2);
+                ChartUtilities.saveChartAsPNG( pieChart2, chart , width , height );
             }
 
         } catch (IOException e) {

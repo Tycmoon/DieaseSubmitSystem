@@ -7,21 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d476fbe0-164e-4b12-9b67-35890509b48c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jcommon-1.0.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfreechart-1.0.19.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/untitled_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/ID.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/ID.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/college.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/college.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/place.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/place.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/situation.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/situation.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/timeD.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/timeD.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/timeM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/timeM.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/MenuTnput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MenuTnput.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ProduceChart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ProduceChart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ReadFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Search.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/listMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/listMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/writetxt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/writetxt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MenuTnput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuTnput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProduceChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduceChart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/listMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/writetxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/writetxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,16 +58,20 @@
   <component name="ProjectId" id="1YtUIPpUaabTWqHmwzLDEyWXLM9" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\course\软件工程\diease submit\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\course\软件工程\diease submit\img" />
       <recent name="D:\course\软件工程\diease submit" />
@@ -93,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="SwingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingDemo" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,10 +191,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.listMain" />
+        <item itemvalue="Application.SwingDemo" />
         <item itemvalue="Application.JfreeChart" />
         <item itemvalue="Application.writetxt" />
         <item itemvalue="Application.CharReport_ZZT" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +230,8 @@
       <workItem from="1584925983380" duration="1134000" />
       <workItem from="1584944408488" duration="1284000" />
       <workItem from="1585211965740" duration="14578000" />
-      <workItem from="1585268553695" duration="8479000" />
+      <workItem from="1585268553695" duration="24643000" />
+      <workItem from="1585362801414" duration="16275000" />
     </task>
     <servers />
   </component>

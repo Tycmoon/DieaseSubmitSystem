@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
+import java.util.Timer;
 
 /**
  * @author yangye
@@ -38,9 +39,9 @@ public class listMain {
             Frame.setVisible(true);
         });
 
-
-
-
+        // 定时
+       // SthFunction sth = new SthFunction();
+        //sth.TimeConfirm();
 
 
     }

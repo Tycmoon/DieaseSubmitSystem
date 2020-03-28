@@ -79,7 +79,7 @@ class Frame extends JFrame {
         // menu3
         JMenu Menu3 = new JMenu("提醒");
         TIMESet = new JMenuItem("设置");
-        // TIMESet.addActionListener();
+        TIMESet.addActionListener(new TimeSet());
         Menu3.add(TIMESet);
 
         // menu4
@@ -307,10 +307,37 @@ class Frame extends JFrame {
             }
         }
     }
+    JComboBox<String> time1,time2;
     private class TimeSet implements ActionListener {
         public void actionPerformed(ActionEvent event){
-
-
+            JFrame f=new JFrame("设置时间");    //创建窗体对象并赋标题参数
+            f.setSize(500,300);    //设置窗体大小
+            f.setBackground(Color.WHITE);    //设置背景颜色
+            f.setLocationByPlatform(true);
+            f.setVisible(true);    //显示窗体
+            String[] hour = new String[24];
+            String[] minute = new String[60];
+            for (int i = 0; i < 24; i++) {
+                String str = ""+i;
+                hour[i] = str;
+            }
+            for (int i = 0; i < 60; i++) {
+                String str = ""+i;
+                minute[i] = str;
+            }
+            time1 = new JComboBox<String>(hour);
+            time2 = new JComboBox<String>(minute);
+            JPanel timeJP = new JPanel();
+            JLabel label1 = new JLabel("小时");
+            JLabel label2 = new JLabel("分钟");
+            JButton button = new JButton("确定");
+             button.addActionListener(new submitTime());
+            timeJP.add(time1);
+            timeJP.add(label1);
+            timeJP.add(time2);
+            timeJP.add(label2);
+            timeJP.add(button);
+            f.add(timeJP);
         }
     }
     JLabel label7;
@@ -405,7 +432,15 @@ class Frame extends JFrame {
             label7.setText("填报完成啦");
         }
     }
-
+    // 确认时间按钮action
+    SthFunction function = new SthFunction();;
+    private class submitTime implements ActionListener {
+        public void actionPerformed(ActionEvent event){
+            function.setHour(time1.getSelectedItem().toString());
+            function.setMinute(time2.getSelectedItem().toString());
+            function.TimeConfirm();
+        }
+    }
 }
 
 

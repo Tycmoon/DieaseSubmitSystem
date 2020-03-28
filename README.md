@@ -1,8 +1,39 @@
+#### 主要内容
+
+chart：存放生成的图表
+img：存放系统图标
+src：存放具体代码
+Text.txt:存放数据
+
+#### src内容
+
+##### Frame.java 
+绘制界面内容，与事件的监听处理，详细可clone后查看
+![](https://img2020.cnblogs.com/blog/1474762/202003/1474762-20200328152846590-666742195.png)
+
+![](https://img2020.cnblogs.com/blog/1474762/202003/1474762-20200328152808109-1515449448.png)
+
+##### MenuTnput.java 
+其中有initializeGragh方法，主要用于初始化内容，包括数据计数和生成graph
+
+##### ProduceChart.java 
+
+生成数据统计图，借用了插件JFreeChart Java图表库，它是一个免费的开源项目，向创造者们表示感谢。
+里面有ProduceChart，ProduceChartC2，生成柱状图和扇形图的方法，生成的在chart文件中。
+![](https://img2020.cnblogs.com/blog/1474762/202003/1474762-20200328160117197-930729053.png)
+
+##### Search.java 
+增加方法BuildGragh()，生成图表的包装函数，一次执行完生成图表。
+其他可阅读源码，或一个博客：[链接](https://www.cnblogs.com/2017xinghui/p/12452438.html)
+部分旧方法未删除。
+##### SthFunction.java 
+其中有采集数据的方法：Insert_Message，会在action事件中被调用
+##### listMain.java 
+主函数，运行入口，其中实例化了MenuTnput，ReadFile进行初始化工作，再通过frame生成swing界面
+##### writetxt.java
+生成Text.txt中数据信息
 
 
-
-
-#### 
 
 
 

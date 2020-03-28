@@ -25,6 +25,7 @@ public class listMain {
             System.out.println("信息读取有误");
             e.printStackTrace();
         }
+        // 初始化
         // NewMenuInput.initializeGragh(Personlist1);
 
         // frame

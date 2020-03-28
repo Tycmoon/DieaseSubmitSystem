@@ -23,24 +23,17 @@ class Frame extends JFrame {
 
     // 界面绘制
     public Frame(){
-
         // set width height
         setSize(width*2/3,height*2/3);
-        // setSize(600,600);
         setLocationByPlatform(true);
         // set icon
         Image img = new ImageIcon("img//Disease.png").getImage();
         setIconImage(img);
-
         // 菜单栏
         AddMenu();
-
         // 搜索框
         SearchEngine();
-
         // 时间提醒
-
-
     }
 
     /*
@@ -136,7 +129,7 @@ class Frame extends JFrame {
         SearchEngineJpanel.add(Npanel,BorderLayout.NORTH);
         SearchEngineJpanel.add(Spanel,BorderLayout.SOUTH);
         add(SearchEngineJpanel);
-        SearchEngineJpanel.setVisible(true);
+        SearchEngineJpanel.setVisible(false);
     }
     /*
      *
@@ -320,7 +313,6 @@ class Frame extends JFrame {
 
         }
     }
-
     JLabel label7;
     // 打开填报界面
     private class InsertMessage implements ActionListener {
@@ -396,7 +388,6 @@ class Frame extends JFrame {
             f.add(InsertJpanel);
         }
     }
-
     // 填报信息按钮action
     private class MessageSubmit implements ActionListener {
         public void actionPerformed(ActionEvent event){

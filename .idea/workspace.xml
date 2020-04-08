@@ -7,28 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d476fbe0-164e-4b12-9b67-35890509b48c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/untitled_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/ID.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/ID.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/college.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/college.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/place.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/place.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/situation.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/situation.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/timeD.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/timeD.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/timeM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/chart/timeM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$CollegeAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$CollegeAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$IDGraghAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$IDGraghAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$InsertMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$InsertMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$MessageSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$MessageSubmit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$PlaceGraghAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$PlaceGraghAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$SearchAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$SearchAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$SearchEngineShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$SearchEngineShow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$TimeDGraghAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$TimeDGraghAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$TimeMGraghAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$TimeMGraghAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$TimeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$TimeSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame$situationGraghAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame$situationGraghAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Frame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/MenuTnput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MenuTnput.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/ProduceChart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ProduceChart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ReadFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/SthFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/SthFunction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/listMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/listMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuTnput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuTnput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProduceChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduceChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -232,6 +228,22 @@
       <workItem from="1585211965740" duration="14578000" />
       <workItem from="1585268553695" duration="24643000" />
       <workItem from="1585362801414" duration="16275000" />
+      <workItem from="1585379936987" duration="10822000" />
+      <workItem from="1585396463427" duration="138000" />
+      <workItem from="1585636005509" duration="46000" />
+      <workItem from="1585640656420" duration="2047000" />
+      <workItem from="1585710676135" duration="1643000" />
+      <workItem from="1585714363707" duration="600000" />
+      <workItem from="1585751580790" duration="30000" />
+      <workItem from="1585753878660" duration="374000" />
+      <workItem from="1585754971530" duration="242000" />
+      <workItem from="1585755237120" duration="1275000" />
+      <workItem from="1585757458575" duration="965000" />
+      <workItem from="1585759321198" duration="277000" />
+      <workItem from="1585841387164" duration="119000" />
+      <workItem from="1585892535924" duration="317000" />
+      <workItem from="1586324379756" duration="338000" />
+      <workItem from="1586327854678" duration="338000" />
     </task>
     <servers />
   </component>
